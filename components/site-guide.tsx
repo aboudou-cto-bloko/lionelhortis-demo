@@ -22,7 +22,7 @@ export default function SiteGuide() {
         <div className="relative grid md:grid-cols-[1fr_280px] gap-0 items-stretch">
 
           {/* Texte */}
-          <div className="p-10 md:p-14 flex flex-col gap-6 justify-center">
+          <div className="p-8 md:p-14 flex flex-col gap-5 md:gap-6 justify-center">
             <Badge variant="outline" className="w-fit border-primary/40 text-primary font-mono text-[10px] tracking-widest uppercase">
               Ressource gratuite
             </Badge>
@@ -58,10 +58,10 @@ export default function SiteGuide() {
               rel="noopener noreferrer"
               className={cn(
                 buttonVariants({ size: "lg" }),
-                "w-fit h-12 px-8 text-base font-semibold mt-2"
+                "w-full sm:w-fit h-12 px-6 sm:px-8 text-sm sm:text-base font-semibold mt-1 justify-center"
               )}
             >
-              Télécharger le guide gratuitement →
+              Télécharger gratuitement →
             </Link>
           </div>
 

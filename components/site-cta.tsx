@@ -33,7 +33,7 @@ export default function SiteCta() {
     <section id="contact" className="py-24 max-w-5xl mx-auto px-6">
       <div
         ref={cardRef}
-        className="relative overflow-hidden rounded-2xl border border-primary/20 bg-card p-12 md:p-20 text-center"
+        className="relative overflow-hidden rounded-2xl border border-primary/20 bg-card p-8 sm:p-12 md:p-20 text-center"
       >
         <div
           aria-hidden
@@ -64,7 +64,7 @@ export default function SiteCta() {
             rel="noopener noreferrer"
             className={cn(
               buttonVariants({ size: "lg" }),
-              "h-12 px-10 text-base font-semibold"
+              "h-12 px-6 sm:px-10 text-sm sm:text-base font-semibold w-full sm:w-auto"
             )}
           >
             Réserver mon appel gratuit →

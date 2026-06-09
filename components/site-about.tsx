@@ -111,8 +111,8 @@ export default function SiteAbout() {
   }, [])
 
   return (
-    <section id="about" className="py-24 max-w-5xl mx-auto px-6">
-      <div className="grid md:grid-cols-2 gap-16 items-start">
+    <section id="about" className="py-16 md:py-24 max-w-5xl mx-auto px-6">
+      <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-start">
 
         <div className="flex flex-col gap-6">
           <p className="text-[11px] font-mono text-primary tracking-widest uppercase">
@@ -121,7 +121,7 @@ export default function SiteAbout() {
 
           <h2
             ref={headingRef}
-            className="font-display text-4xl md:text-[44px] font-bold text-foreground leading-[1.15]"
+            className="font-display text-[28px] sm:text-4xl md:text-[44px] font-bold text-foreground leading-[1.15]"
           >
             Je ne suis pas une agence. Je suis la personne qui gère tes campagnes.
           </h2>

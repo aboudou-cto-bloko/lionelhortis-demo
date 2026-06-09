@@ -83,19 +83,19 @@ export default function SiteProcess() {
   }, [])
 
   return (
-    <section id="process" className="py-24 bg-card/40 border-y border-border">
-      <div className="max-w-5xl mx-auto px-6 flex flex-col gap-12">
+    <section id="process" className="py-16 md:py-24 bg-card/40 border-y border-border">
+      <div className="max-w-5xl mx-auto px-6 flex flex-col gap-10 md:gap-12">
 
         <div className="flex flex-col gap-3">
           <p className="text-[11px] font-mono text-primary tracking-widest uppercase">
             Process
           </p>
-          <h2 className="font-display text-4xl md:text-[44px] font-bold text-foreground">
+          <h2 className="font-display text-3xl md:text-[44px] font-bold text-foreground">
             Comment ça se passe
           </h2>
         </div>
 
-        <div ref={stepsRef} className="grid md:grid-cols-4 gap-8">
+        <div ref={stepsRef} className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
           {steps.map((step) => (
             <div
               key={step.n}
